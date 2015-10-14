@@ -6,6 +6,8 @@
 		<project>TODOWeb</project>
 		<project>TODOEJB</project>
 		<project>TODO-EXTWeb</project>
+		<project>TODOEXT</project>
+		<project>TODOEX</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

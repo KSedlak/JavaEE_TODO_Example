@@ -1,0 +1,3 @@
+com\capgemini\starterkit\jee\todo\service\AuthorizationException.class
+com\capgemini\starterkit\jee\todo\service\TODOsManagementService.class
+com\capgemini\starterkit\jee\todo\entities\TODO.class

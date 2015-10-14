@@ -9,14 +9,14 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import com.capgemini.starterkit.jee.todo.entities.TODO;
-import com.capgemini.starterkit.jee.todo.service.TODOsManagmentService;
+import com.capgemini.starterkit.jee.todo.service.TODOsManagementService;
 
 @SessionScoped
 @ManagedBean(name = "todoBean")
 public class TODOBean {
 
 	@EJB
-	private TODOsManagmentService todosService;
+	private TODOsManagementService todosService;
 	
 	
 	public List<TODO> getTodos() {

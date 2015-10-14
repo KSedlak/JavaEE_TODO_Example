@@ -335,5 +335,8 @@
         <dependent-module archiveName="TODOWeb-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/TODOWeb/TODOWeb/0.0.1-SNAPSHOT/TODOWeb-0.0.1-SNAPSHOT.war">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="TODOEX-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/TODOEX/TODOEX">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
