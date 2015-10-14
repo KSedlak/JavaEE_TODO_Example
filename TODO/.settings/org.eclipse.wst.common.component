@@ -2,10 +2,13 @@
     <wb-module deploy-name="TODO-0.0.1-SNAPSHOT">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="TODOEJB-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/TODOEJB/TODOEJB/0.0.1-SNAPSHOT/TODOEJB-0.0.1-SNAPSHOT.jar">
+        <dependent-module archiveName="TODOEJB-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/TODOEJB/TODOEJB">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="infinispan-core-5.0.0.FINAL.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/infinispan/infinispan-core/5.0.0.FINAL/infinispan-core-5.0.0.FINAL.jar">
+        <dependent-module archiveName="activation-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1.1/activation-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="infinispan-core-5.0.1.FINAL.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/infinispan/infinispan-core/5.0.1.FINAL/infinispan-core-5.0.1.FINAL.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="jgroups-2.12.1.3.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jgroups/jgroups/2.12.1.3.Final/jgroups-2.12.1.3.Final.jar">
@@ -21,9 +24,6 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="rhq-pluginAnnotations-3.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/rhq/helpers/rhq-pluginAnnotations/3.0.1/rhq-pluginAnnotations-3.0.1.jar">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="activation-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1.1/activation-1.1.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="jboss-annotations-api_1.2_spec-1.0.0.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.0.Final/jboss-annotations-api_1.2_spec-1.0.0.Final.jar">
@@ -332,10 +332,10 @@
         <dependent-module archiveName="javax.json-1.0.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/glassfish/javax.json/1.0.3/javax.json-1.0.3.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="TODOWeb-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/TODOWeb/TODOWeb/0.0.1-SNAPSHOT/TODOWeb-0.0.1-SNAPSHOT.war">
+        <dependent-module archiveName="TODOWeb-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/TODOWeb/TODOWeb">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="TODOEX-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/TODOEX/TODOEX">
+        <dependent-module archiveName="TODO-PRIME-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/TODO-PRIME/TODO-PRIME">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
